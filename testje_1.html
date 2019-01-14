@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Slider</title>
+  <link rel="stylesheet" href="css/testje_1.css">
+</head>
+
+<body>
+  <div>
+    <ul id="slider">
+        <li><img src="http://lorempixel.com/700/200/cats/"></li>
+        <li><img src="http://lorempixel.com/700/200/nature/"></li>
+        <li><img src="http://lorempixel.com/700/200/animals/"></li>
+        <li><img src="http://lorempixel.com/700/200/cats/"></li>
+        <li><img src="http://lorempixel.com/700/200/nature/"></li>
+        <li><img src="http://lorempixel.com/700/200/animals/"></li>
+    </ul>
+  </div>
+
+  <!-- Next and previous buttons -->
+ <div>
+     <button type="button" class="prev" onclick="plusSlides(-1)">PREV <</button>
+     <button type="button" class="next" onclick="plusSlides(1)">NEXT ></button>
+</div>
+
+  <!-- The dots/circles -->
+<div id="dotButtons">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+</div>
+
+  <script src="js/jquery-2.2.2.min.js"></script>
+  <script src="js/testje_1.js"></script>
+</body>
+</html>
